@@ -7,6 +7,7 @@
 #include "noobmalloc.h"
 
 int main(void) {
+    // some simple tests made from chatgpt
     // Test 1: malloc
     void *p1 = noob_malloc(20);
     printf("Test 1 (malloc): %s\n", p1 != NULL ? "Worked" : "Failed");
